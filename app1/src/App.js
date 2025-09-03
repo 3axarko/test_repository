@@ -13,7 +13,7 @@ const App = () => {
         <h1>Server</h1>
         <h2>App 1</h2>
         <React.Suspense fallback="Loading Button">
-          <RemoteButton onClick={() => setShowHar((prev) => !prev)}>
+          <RemoteButton>
             Показать HAR app2
           </RemoteButton>
         </React.Suspense>
