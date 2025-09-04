@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES6",                          // версия JS, которую будет генерировать компилятор
+    "module": "ESNext",                       // тип модулей
+    "esModuleInterop": true,                  // для импорта CommonJS модулей
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",                       // куда компилировать
+    "sourceMap": true                         // для отладки
+  },
+  "include": ["src/**/*"],                    // какие файлы включать в компиляцию
+  "exclude": ["node_modules"]
+}
