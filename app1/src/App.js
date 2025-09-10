@@ -3,6 +3,12 @@ import React from 'react';
 const RemoteButton = React.lazy(() => import('app2/App'));
 
 const App = () => {
+  
+  // React.useEffect(() => {
+  //   console.log("🚀app1 ~ App ~ useEffect")
+  // }, []);
+  // console.log("🚀app1 ~ App ~ root")
+
   return (
       <div style = {{
         background: 'lightblue',
